@@ -46,10 +46,21 @@ cp .env.example .env
 Variáveis de Ambiente (.env)
 
 ### URLs das Camadas ArcGIS
+#### 🔧 Variáveis de Ambiente
+Configure no arquivo `.env` as seguintes variáveis para conexão com os serviços ArcGIS:
+```ini
 VITE_BAIRROS_LAYER_URL=https://arcgis-ope.codexremote.com.br/server/rest/services/Hosted/Camadas_Teste/FeatureServer/4
 VITE_EIXOS_LAYER_URL=https://arcgis-ope.codexremote.com.br/server/rest/services/Hosted/Camadas_Teste/FeatureServer/2
 VITE_REGIOES_LAYER_URL=https://arcgis-ope.codexremote.com.br/server/rest/services/Hosted/Camadas_Teste/FeatureServer/3
 VITE_PONTOS_LAYER_URL=https://arcgis-ope.codexremote.com.br/server/rest/services/Hosted/Camadas_Teste/FeatureServer/1
+```
+
+## ⚙️ Como Configurar
+
+1. **Crie um arquivo** `.env` na raiz do projeto.  
+2. **Copie o conteúdo acima** para o arquivo.  
+3. Para desenvolvimento local, use **`.env.local`** (já incluído no `.gitignore`).  
+
 
 ## 🏗️ Estrutura do Projeto
 ```plaintext
