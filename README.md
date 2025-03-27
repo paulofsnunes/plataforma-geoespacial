@@ -33,7 +33,7 @@ Aplicação web para visualização e análise de dados geoespaciais com integra
 ### Instalação Local
 
 # Clone o repositório
-git clone [https://github.com/seu-usuario/plataforma-geoespacial.git](https://github.com/paulofsnunes/plataforma-geoespacial)
+git clone https://github.com/paulofsnunes/plataforma-geoespacial
 
 cd plataforma-geoespacial
 
